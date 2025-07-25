@@ -1,12 +1,10 @@
 import { Send } from "lucide-react";
 import StarBlinking from "./StarBlinking";
-import Navbar from "./Navbar";
 
 
 export default function HeroElement() {
   return (
     <div className="text-white bg-black flex flex-col justify-center h-[78vh] md:h-[84vh] items-center leading-[2]">
-      <Navbar/>
       <StarBlinking />
       <p className="text-xs text-gray-200">DYNAMIC WEB MAGIC WITH REACT.JS</p>
       <h1 className="text-xl md:text-5xl font-bold md:leading-[1.5] text-center ">

@@ -1,7 +1,6 @@
 import StarBlinking from "./StarBlinking";
 import Navbar from "./Navbar";
 import BorderWaveButton from "./BorderWaveButton";
-import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 interface HeroProps {
   gsaptimeline: gsap.core.Timeline;

@@ -64,36 +64,4 @@ interface NavbarProps {
 export default Navbar;
 
 
-// import { useEffect } from "react";
-// import { Laptop } from "lucide-react";
-// import { animateNavbar } from "../animations/navbarAnimation";
 
-// export default function Navbar() {
-//   useEffect(() => {
-//     animateNavbar();
-//   }, []);
-
-//   return (
-//     <div className="nav-animate hidden md:inline-flex fixed top-0 justify-between gap-4 bg-gray-900 w-full h-auto px-8 py-3 text-white border-b border-gray-500 text-gray-400 z-50">
-//       <p className="logo text-2xl font-semibold flex gap-1 items-center logo">
-//         <Laptop className="text-violet-500" size={25} />
-//         Ritesh Sahu
-//       </p>
-
-//       <div className="menu flex gap-8 mr-6 menu">
-//         <a href="#home" className="hover:text-violet-500 transition-colors duration-800 cursor-pointer">
-//           Home
-//         </a>
-//         <a href="#project" className="hover:text-violet-500 transition-colors duration-800 cursor-pointer">
-//           Project
-//         </a>
-//         <a href="#about" className="hover:text-violet-500 transition-colors duration-800 cursor-pointer">
-//           About
-//         </a>
-//         <a href="#contact" className="hover:text-violet-500 transition-colors duration-800 cursor-pointer">
-//           Contact
-//         </a>
-//       </div>
-//     </div>
-//   );
-// }
