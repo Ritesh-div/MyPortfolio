@@ -96,12 +96,12 @@ useGSAP(() => {
   });
 
   return (
-    <div id="project" className="flex flex-col justify-center items-center bg-black text-white p-8 md:w-[90%] md:m-auto">
+    <div id="project" className="flex flex-col justify-center items-center p-8 md:w-[90%] md:m-auto">
       <p className="text-color text-xs md:text-lg prodescrip">VISIT MY PROJECT AND KEEP YOUR FEEDBACK</p>
       <h2 className="text-2xl md:text-4xl font-semibold">My Peojects</h2>
 
       <div className="w-full lg:flex justify-center items-center mt-10 gap-16 p-2 rounded-lg">
-        <div className="project1 bg-gray-950 h-auto lg:w-[30%] p-2 rounded-lg shadow-lg border-1 mt-6 border-gray-600">
+        <div className="project1 bg-background text-foreground h-auto lg:w-[30%] p-2 rounded-lg shadow-2xl border-1 mt-6 border-gray-300 dark:border-gray-600">
           <img
             src={sparkx}
             alt="SparkX project"
@@ -124,7 +124,7 @@ useGSAP(() => {
           </div>
         </div>
 
-        <div className="project2 bg-gray-950 h-auto lg:w-[30%] p-2 rounded-lg shadow-lg border-1 mt-6  border-gray-600">
+        <div className="project2 bg-background text-foreground h-auto lg:w-[30%] p-2 rounded-lg shadow-2xl border-1 mt-6  border-gray-300 dark:border-gray-600">
           <img
             src={weather}
             alt="Weather project"
@@ -168,7 +168,7 @@ useGSAP(() => {
       </div>
 
       <div className="w-full lg:flex justify-center items-center gap-16 p-2 rounded-lg">
-        <div className="project3 bg-gray-950 h-auto lg:w-[30%] p-2 rounded-lg shadow-lg border-1 mt-6 border-gray-600">
+        <div className="project3 bg-background text-foreground h-auto lg:w-[30%] p-2 rounded-lg shadow-2xl border-1 mt-6 border-gray-300 dark:border-gray-600">
           <img
             src={todoImg}
             alt="Todo project"
@@ -189,7 +189,7 @@ useGSAP(() => {
           </div>
         </div>
 
-        <div className="project4 bg-gray-950 h-auto lg:w-[30%] p-2 rounded-lg shadow-lg border-1 mt-6 border-gray-600">
+        <div className="project4 bg-background text-foreground h-auto lg:w-[30%] p-2 rounded-lg shadow-2xl border-1 mt-6 border-gray-300 dark:border-gray-600">
           <img
             src={netflix}
             alt="Netflix project"

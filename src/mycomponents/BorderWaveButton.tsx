@@ -25,7 +25,7 @@ const BorderWaveButton: React.FC = () => {
   }, []);
 
   return (
-    <button className="relative px-8 py-2 text-white bg-black rounded-lg overflow-hidden group border-1 border-violet-300 mt-6">
+    <button className="relative px-8 py-2 bg-background text-foreground rounded-lg overflow-hidden group border-1 border-violet-300 mt-6">
       <a href="mailto:riteshkumarsahu1345@email.com" target="_blank" rel="noopener noreferrer">
         {" "}
         <span className="relative z-10  flex justify-center items-center gap-2 font-semibold">

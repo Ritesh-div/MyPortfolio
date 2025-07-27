@@ -66,11 +66,22 @@ h1 {
   background-size: cover;
   background-position: center;
 }
+.bgImagelight{
+  background-image: url("/src/assets/lightmodebgimage.jpg");
+  background-size: cover;
+  background-position: center;
+}
 .bgImageTime{
    background-image: url("/src/assets/pexels-pixabay-41949.jpg");
   background-size: cover;
   background-position: center; 
 }
+.bgImageLightTime{
+   background-image: url("/src/assets/timeZone.jpg");
+  background-size: cover;
+  background-position: center; 
+}
+
 .bg1{
   background: #0EB3FF;
 background: linear-gradient(0deg, #0EB3FF 25%, #EFF55A 70%);

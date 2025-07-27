@@ -28,7 +28,7 @@ const StarBlinking: React.FC = () => {
         <div
           key={i}
           ref={(el) => setStarRef(el, i)}
-          className="absolute w-[4px] h-[4px] bg-white rounded-full"
+          className="absolute w-[4px] h-[4px] bg-violet-500 dark:bg-white rounded-full"
           style={{
             top: `${Math.random() * 100}%`,
             left: `${Math.random() * 100}%`,

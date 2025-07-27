@@ -34,18 +34,18 @@ const Hero: React.FC<HeroProps> = ({ gsaptimeline }) => {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex flex-col items-center justify-center bg-black overflow-hidden px-6"
+      className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden px-6 bg-background text-foreground"
     >
       <Navbar gsaptimeline={gsaptimeline} />
       <StarBlinking />
       <div className="relative z-10 text-center ">
-        <p className="text-xs text-gray-300 dynamic">
+        <p className="text-xs dynamic">
           DYNAMIC WEB MAGIC WITH REACT.JS
         </p>
-        <h1 className=" text-3xl md:text-5xl font-bold text-white name">
+        <h1 className=" text-3xl md:text-5xl font-bold  name">
           Hi, I'm <span className="">Ritesh</span>
         </h1>
-        <p className=" mt-3 text-gray-300 text-justify md:w-[60%] mx-auto description">
+        <p className=" mt-3 text-justify md:w-[60%] mx-auto description">
           I’m a passionate{" "}
           <span className="text-violet-500">Frontend Developer</span> who
           transforms ideas into engaging, responsive, and user-friendly web
