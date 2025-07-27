@@ -42,7 +42,7 @@ const Hero: React.FC<HeroProps> = ({ gsaptimeline }) => {
         <p className="text-xs dynamic">
           DYNAMIC WEB MAGIC WITH REACT.JS
         </p>
-        <h1 className=" text-3xl md:text-5xl font-bold  name">
+        <h1 className=" text-3xl md:text-5xl font-bold name">
           Hi, I'm <span className="">Ritesh</span>
         </h1>
         <p className=" mt-3 text-justify md:w-[60%] mx-auto description">

@@ -45,7 +45,7 @@ export default function GetInTouch() {
 
     {/* Footer */}
       <div className="mt-18 w-full flex justify-between items-center text-gray-400">
-        <div className=" flex items-center gap-2 text-gray-400 text-xl mt-4">
+        <div className=" flex items-center gap-4 text-gray-400 text-xl mt-4">
           <Copyright size={16} />{" "}
           <span className="text-xs">
             2025 Ritesh's Protfolio. All Copyright reserved.

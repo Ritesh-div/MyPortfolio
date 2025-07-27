@@ -40,6 +40,7 @@
 .read-the-docs {
   color: #888;
 } */
+ 
 html {
   scroll-behavior: smooth;
 }
@@ -67,7 +68,7 @@ h1 {
   background-position: center;
 }
 .bgImagelight{
-  background-image: url("/src/assets/lightmodebgimage.jpg");
+  background-image: url("/src/assets/lightmodeImage.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -77,7 +78,7 @@ h1 {
   background-position: center; 
 }
 .bgImageLightTime{
-   background-image: url("/src/assets/timeZone.jpg");
+   background-image: url("/src/assets/lightmodeTimeImage.jpg");
   background-size: cover;
   background-position: center; 
 }
