@@ -98,7 +98,7 @@ useGSAP(() => {
   return (
     <div id="project" className="flex flex-col justify-center items-center p-8 md:w-[90%] md:m-auto">
       <p className="text-color text-xs md:text-lg prodescrip">VISIT MY PROJECT AND KEEP YOUR FEEDBACK</p>
-      <h2 className="text-2xl md:text-4xl font-semibold">My Peojects</h2>
+      <h2 className="text-2xl md:text-4xl font-semibold">My Projects</h2>
 
       <div className="w-full lg:flex justify-center items-center mt-10 gap-16 p-2 rounded-lg">
         <div className="project1 bg-background text-foreground h-auto lg:w-[30%] p-2 rounded-lg shadow-2xl border-1 mt-6 border-gray-300 dark:border-gray-600">
