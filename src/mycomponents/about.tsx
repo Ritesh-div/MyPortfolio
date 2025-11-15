@@ -133,9 +133,6 @@ export default function About() {
               <Skill skillName="#Reactjs" />
               <Skill skillName="#Github" />
               <Skill skillName="#MYSQL" />
-              <Skill skillName="#MongoDB" />
-              <Skill skillName="#Nodejs" />
-              <Skill skillName="#Expressjs" />
             </div>
           </div>
         </div>
